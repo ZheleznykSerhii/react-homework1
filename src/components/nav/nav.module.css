@@ -1,0 +1,40 @@
+.navLinks {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  height: 60px;
+}
+
+.navImg {
+  position: relative;
+  max-width: 50px;
+  max-height: 50px;
+  margin-left: 50px;
+  top: 7px;
+}
+
+.navLinks {
+  align-items: center;
+  position: relative;
+  left: 20%;
+}
+
+.navItems {
+  margin-left: 30px;
+  width: 120px;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.selected {
+  overflow: hidden;
+  border-radius: 25px;
+  background-color: rgb(219, 217, 217);
+}

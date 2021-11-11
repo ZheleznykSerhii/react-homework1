@@ -1,0 +1,28 @@
+.AppHeader {
+  background-color: rgb(9, 2, 27);
+  color: white;
+  height: 40px;
+  width: 100%;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-radius: 1%;
+  overflow: hidden;
+  align-items: center;
+}
+
+.pagesName {
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 110px;
+}
+
+header {
+  display: flex;
+}
+
+.circles {
+  height: 50px;
+  width: 100px;
+  margin-top: 10px;
+  position: relative;
+}
