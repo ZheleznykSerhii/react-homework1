@@ -1,10 +1,10 @@
 import React from 'react'
 import Heading from '../../../img/heading.PNG'
-import Art from '../../../img/art.PNG'
+import Art from '../../../img/ar.jpg'
 import Button from '../../../common/button'
 import ArtMain from './homepageComponents/ArtMain'
-import Belgum from '../../../img/belgum.PNG'
-import Choko from '../../../img/choko.PNG'
+import Belgum from '../../../img/belgium.jpg'
+import Choko from '../../../img/chok.jpg'
 import HeaderPart from './HeaderPart'
 
 const HomePageContent = () => {
