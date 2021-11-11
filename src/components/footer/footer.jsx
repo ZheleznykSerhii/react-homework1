@@ -1,9 +1,9 @@
 import React from 'react'
 import Logo from '../../img/logo.png'
-import Fb from '../../img/fb.PNG'
-import In from '../../img/in.PNG'
-import Twitter from '../../img/twitter.PNG'
-import G from '../../img/g.PNG'
+import Fb from '../../img/fbfb.png'
+import In from '../../img/inin.png'
+import Twitter from '../../img/tw.png'
+import G from '../../img/gg.png'
 import './footer.css'
 
 const Footer = () => {
@@ -21,7 +21,7 @@ const Footer = () => {
         <div className="footer-logo ">
           <img src={Logo} alt="logo" className="FooterIMG"></img>
         </div>
-        <div className="footer-icons card">
+        <div className="footer-icons ">
           <div>
             <img src={Fb} alt="icon"></img>
           </div>

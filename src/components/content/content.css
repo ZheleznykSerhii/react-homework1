@@ -36,10 +36,15 @@
   text-align: center;
 }
 
+.cardText {
+  margin: auto;
+  width: 260px;
+}
+
 .card-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 280px;
-  width: 280px;
+  height: 300px;
+  width: 360px;
 }

@@ -6,7 +6,7 @@ const ArtMain = ({ photo, title, text }) => {
       <div>
         <img src={photo} alt="card" className="card-img"></img>
         <h6>{title}</h6>
-        <div>{text}</div>
+        <div className="cardText">{text}</div>
       </div>
     </div>
   )

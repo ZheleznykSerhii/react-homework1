@@ -5,7 +5,7 @@ import Button from '../../../common/button'
 import ArtMain from './homepageComponents/ArtMain'
 import Belgum from '../../../img/belgum.PNG'
 import Choko from '../../../img/choko.PNG'
-import HeaderPart from './homepageComponents/HeaderPart'
+import HeaderPart from './HeaderPart'
 
 const HomePageContent = () => {
   return (
@@ -28,7 +28,7 @@ const HomePageContent = () => {
           photo={Choko}
         />
       </div>
-      <Button text="Viev more" />
+      <Button text="View more" />
     </div>
   )
 }
