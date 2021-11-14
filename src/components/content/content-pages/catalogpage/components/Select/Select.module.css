@@ -1,0 +1,9 @@
+select {
+    height: 30px;
+    width:150px;
+    padding-left: 5px;
+    border-radius: 10px;
+    appearance: none;
+    overflow: hidden;
+    background: url('../../../../../../img/drop-down-arrow.png') no-repeat right;
+}

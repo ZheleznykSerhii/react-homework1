@@ -1,10 +1,11 @@
 import React from 'react'
 import Logo from '../../img/logo.png'
 import s from './nav.module.css'
+// import reactDom from 'react-dom'
 import ButtonNotSelected from './navButtons/buttonNotSelected'
 import ButtonSelected from './navButtons/buttonSelected'
 
-const Nav = () => {
+const Nav = (props) => {
   return (
     <nav className={s.nav}>
       <div>
@@ -15,6 +16,7 @@ const Nav = () => {
         <ButtonNotSelected text="Catalog" />
         <ButtonNotSelected text="Cart" />
       </ul>
+      {props.children}
     </nav>
   )
 }

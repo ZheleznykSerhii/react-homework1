@@ -23,7 +23,7 @@ const HomePageContent = () => {
           photo={Belgum}
         />
         <ArtMain
-          title="Hummingbird cake"
+          title="Chocoholic Cake"
           text="A sight to behold, our signature Chocoholic Cake is the perfect treat for chocolate lovers. A sponge base is layered with dark chocolate mousse, then milk chocolate mousse, and finished with a layer of white chocolate mousse. Each bite is an explosion of three different chocolate flavours in the mouth!"
           photo={Choko}
         />
