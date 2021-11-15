@@ -10,7 +10,7 @@ const Nav = (props) => {
         <img className={s.navImg} src={Logo} alt="logo" />
       </div>
       <ul className={s.navLinks}>
-        <NavLink to="/login">
+        <NavLink to="/home">
           <li className={`${s.navItems} `}>Home</li>
         </NavLink>
         <NavLink to="/catalog">
