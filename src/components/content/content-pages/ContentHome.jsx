@@ -39,7 +39,12 @@ let HomePageContent = () => {
       <div className="bottom-part">
         <ArtMain artState={artState} />
       </div>
-      <Button text="View more" />
+      <div className='aboveBtn'>
+        <div></div>
+        <Button text="View more" />
+        <div></div>
+      </div>
+      
     </div>
   )
 }

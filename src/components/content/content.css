@@ -36,6 +36,7 @@
 
 .artMain {
   display: flex;
+  margin-bottom: 50px;
 }
 
 .cardText {
@@ -49,4 +50,12 @@
   margin-right: auto;
   height: 300px;
   width: 360px;
+}
+
+.aboveBtn{
+  display: flex;
+}
+.aboveBtn div{
+  height:30px;
+  width: calc((1200px - 180px)/2);
 }
