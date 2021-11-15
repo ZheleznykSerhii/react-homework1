@@ -1,1 +1,1 @@
-https://zheleznykserhii.github.io/react-homework1/
+// https://zheleznykserhii.github.io/react-homework1/
