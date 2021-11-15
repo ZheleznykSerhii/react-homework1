@@ -21,8 +21,6 @@
 }
 
 .bottom-part {
-  display: flex;
-  justify-content: space-between;
   margin: 50px 50px 0px 50px;
   font-size: 14px;
 }
@@ -34,6 +32,10 @@
   height: 100%;
   line-height: 140%;
   text-align: center;
+}
+
+.artMain {
+  display: flex;
 }
 
 .cardText {

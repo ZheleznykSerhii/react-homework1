@@ -1,13 +1,13 @@
 import React from 'react'
+import ArtITem from './ArtItem'
 
-const ArtMain = ({ photo, title, text }) => {
+const ArtMain = ({ artState }) => {
+  console.log(artState)
   return (
-    <div className="card">
-      <div>
-        <img src={photo} alt="card" className="card-img"></img>
-        <h6>{title}</h6>
-        <div className="cardText">{text}</div>
-      </div>
+    <div className="artMain">
+      {artState.map((items) => (
+        <ArtITem key={items.id} {...items} />
+      ))}
     </div>
   )
 }

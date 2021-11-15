@@ -1,15 +1,14 @@
 import React from 'react'
-import s from './header.module.css'
-import circles from '../../img/circles.png'
+import { Routes, Route } from 'react-router'
+import HeaderText from './HeaderText'
 
-const Header = ({ text }) => {
+const Header = () => {
   return (
-    <header className={s.AppHeader}>
-      <div>
-        <img className={s.circles} alt="cirlces" src={circles}></img>
-      </div>
-      <div className={s.pagesName}>{text}</div>
-    </header>
+    <Routes>
+      <Route path="/login" element={<HeaderText text="Home Page" />} />
+      <Route path="/catalog" element={<HeaderText text="Catalog Page" />} />
+      <Route path="/cart" element={<HeaderText text="Cart Page" />} />
+    </Routes>
   )
 }
 

@@ -8,7 +8,7 @@ import Footer from './components/footer/footer'
 function App() {
   return (
     <div className="Wrapper">
-      <Header text="Catalog Page" />
+      <Header />
       <Nav />
       <Content />
       <Footer />

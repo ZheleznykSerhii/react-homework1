@@ -1,47 +1,48 @@
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 22%;
-    border: 1px solid #000;
-    border-radius: 15px;
-    position: relative;
-    padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 22%;
+  border: 1px solid #000;
+  border-radius: 15px;
+  position: relative;
+  padding-bottom: 10px;
+  margin-right: 5px;
 }
-span h4{
-    background-color: rgb(192, 188, 188);
-    border-radius: 15px 15px 0 0;
-    padding-left: 5px;
+span h4 {
+  background-color: rgb(192, 188, 188);
+  border-radius: 15px 15px 0 0;
+  padding-left: 5px;
 }
-.footer div{
-    display:flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    width: 100%;
-    padding: 0 10px;
-    margin: 20px 0;
+.footer div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding: 0 10px;
+  margin: 20px 0;
 }
 
 .card img,
 .name {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0 10px;
 }
-.name{
-    margin: 15px 0 10px 0;
+.name {
+  margin: 15px 0 10px 0;
 }
-.desc{
-    font-size: 16px;
-    padding: 0 10px;
+.desc {
+  font-size: 16px;
+  padding: 0 10px;
 }
-.card img{
-    margin: 10px 0;
+.card img {
+  margin: 10px 0;
 }
-.btn{
-    display: flex;
-    margin-left: calc((100% - 180px)/2);
+.btn {
+  display: flex;
+  margin-left: calc((100% - 180px) / 2);
 }

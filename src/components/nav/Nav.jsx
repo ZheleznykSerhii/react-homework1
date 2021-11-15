@@ -1,9 +1,7 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import Logo from '../../img/logo.png'
 import s from './nav.module.css'
-// import reactDom from 'react-dom'
-import ButtonNotSelected from './navButtons/buttonNotSelected'
-import ButtonSelected from './navButtons/buttonSelected'
 
 const Nav = (props) => {
   return (
@@ -12,9 +10,15 @@ const Nav = (props) => {
         <img className={s.navImg} src={Logo} alt="logo" />
       </div>
       <ul className={s.navLinks}>
-        <ButtonSelected text="Home" />
-        <ButtonNotSelected text="Catalog" />
-        <ButtonNotSelected text="Cart" />
+        <NavLink to="/login">
+          <li className={`${s.navItems} `}>Home</li>
+        </NavLink>
+        <NavLink to="/catalog">
+          <li className={`${s.navItems} `}>Catalog</li>
+        </NavLink>
+        <NavLink to="/cart">
+          <li className={`${s.navItems} `}>Cart</li>
+        </NavLink>
       </ul>
       {props.children}
     </nav>

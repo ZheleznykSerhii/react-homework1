@@ -27,3 +27,15 @@ h6 {
   margin-bottom: 50px;
   font-size: 24px;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  overflow: hidden;
+  border-radius: 25px;
+  background-color: rgb(219, 217, 217);
+  text-align: center;
+}
