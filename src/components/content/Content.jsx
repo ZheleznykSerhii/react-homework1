@@ -9,7 +9,7 @@ const Content = () => {
   // return <HomePageContent />
   return (
     <Routes>
-      <Route path="/login" element={<HomePageContent />} />
+      <Route path="/home" element={<HomePageContent />} />
       <Route path="/catalog" element={<Catalog />} />
     </Routes>
   )
