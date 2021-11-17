@@ -23,39 +23,44 @@
 .bottom-part {
   margin: 50px 50px 0px 50px;
   font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card {
-  width: 33%;
+  max-width: 350px;
+  min-height: 640px;
   padding-left: 10px;
   padding-right: 10px;
-  height: 100%;
   line-height: 140%;
   text-align: center;
+  margin-left: 10px;
 }
 
 .artMain {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 50px;
 }
 
 .cardText {
   margin: auto;
-  width: 260px;
+  width: 290px;
 }
 
 .card-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
   height: 300px;
-  width: 360px;
+  width: 330px;
 }
 
-.aboveBtn{
+.aboveBtn {
   display: flex;
 }
-.aboveBtn div{
-  height:30px;
-  width: calc((1200px - 180px)/2);
+.aboveBtn div {
+  height: 30px;
+  width: calc((1200px - 180px) / 2);
 }

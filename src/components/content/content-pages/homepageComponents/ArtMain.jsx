@@ -1,11 +1,11 @@
 import React from 'react'
 import ArtITem from './ArtItem'
 
-const ArtMain = ({ artState }) => {
+const ArtMain = ({ artState, numberOfItems }) => {
   console.log(artState)
   return (
     <div className="artMain">
-      {artState.map((items) => (
+      {artState.slice(0, numberOfItems).map((items) => (
         <ArtITem key={items.id} {...items} />
       ))}
     </div>

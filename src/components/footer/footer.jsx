@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="top-part-footer">
-        <div className="left-part-footer card">
+        <div className="left-part-footer cardFooter">
           <div className="left-part-footer-title">Branding stuff</div>
           <div className="left-part-footer-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
