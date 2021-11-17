@@ -4,10 +4,32 @@ import Catalog from './content-pages/catalogpage/CatalogPage'
 import './content.css'
 import { Routes, Route } from 'react-router-dom'
 import { useState } from 'react/cjs/react.development'
-import conf from '../../img/diabeticCake.PNG'
+import cake1 from '../../img/ar.jpg'
+import cake2 from '../../img/belgium.jpg'
+import cake3 from '../../img/chok.jpg'
+import cake4 from '../../img/carrot.PNG'
+import cake5 from '../../img/confetti.PNG'
+import cake6 from '../../img/strawb.PNG'
+import cake7 from '../../img/cheesecake.jpg'
+import cake8 from '../../img/chz.PNG'
+import cake9 from '../../img/grap.PNG'
+import cake10 from '../../img/sweet.PNG'
+import cake11 from '../../img/sweet2.PNG'
+import cake12 from '../../img/diabeticCake.PNG'
 
 // Довелось захардкодити шлях до фото... через консоль лог отримував шлях, який вставляв у " photo:"
-console.log(conf)
+console.log(cake1)
+console.log(cake2)
+console.log(cake3)
+console.log(cake4)
+console.log(cake5)
+console.log(cake6)
+console.log(cake7)
+console.log(cake8)
+console.log(cake9)
+console.log(cake10)
+console.log(cake11)
+console.log(cake12)
 
 const Content = () => {
   const [artState] = useState([
