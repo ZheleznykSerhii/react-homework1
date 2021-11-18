@@ -1,0 +1,24 @@
+input {
+  position: relative;
+  display: flex;
+  height: 30px;
+  width: 180px;
+  right: -81%;
+  border-radius: 15px;
+  padding-left: 20px;
+}
+.imgAd {
+  position: relative;
+  margin-top: -116px;
+  margin-left: 975px;
+  height: 15px;
+  width: 15px;
+}
+
+.input {
+  margin-top: -125px;
+}
+
+.flex {
+  display: flex;
+}

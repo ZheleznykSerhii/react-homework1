@@ -1,9 +1,9 @@
 import './Select.module.css'
-const Select = (props) => {
+const Select = ({ text, def }) => {
   return (
     <div>
-      <select defaultValue={''}>
-        <option disabled>Filter{props.text}</option>
+      <select defaultValue={def}>
+        <option disabled>{def}</option>
         <option value="Item1">Item1</option>
         <option value="Item2">Item2</option>
         <option value="Item3">Item3</option>

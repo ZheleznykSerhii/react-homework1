@@ -1,14 +1,12 @@
-import FiltersBar from './components/FiltersBar/FiltersBar'
-import Addition from './components/Addition/Addition'
-import Items from './components/Items/Items'
+import CatalogMain from './components/CatalogMain/CatalogMain'
 
 const Catalog = ({ artState }) => {
   return (
     <div>
-      <Addition />
-      <FiltersBar />
-      <Items artState={artState} />
+      <CatalogMain artState={artState} />
     </div>
   )
 }
 export default Catalog
+
+// <Items artState={artState} /> <FiltersBar artState={artState} /> Були перенесені всередину компоненти, щоб інфо з інпута всередині одразу ж передавати, з часом пофікшу
