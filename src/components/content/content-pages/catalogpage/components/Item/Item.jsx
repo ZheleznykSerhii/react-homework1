@@ -1,7 +1,8 @@
 import Button from '../../../../../../common/button'
 import s from './Item.module.css'
+import { NavLink } from 'react-router-dom'
 
-const Item = ({ title, photo, text, price }) => {
+const Item = ({ title, photo, text, price, link }) => {
   return (
     <div className={s.card}>
       <span>
@@ -17,7 +18,9 @@ const Item = ({ title, photo, text, price }) => {
           </h4>
           <span>{price}$</span>
         </div>
-        <Button text="View more" className={s.btn} />
+        <NavLink to={ `/catalog/${link}` }>
+          <Button text="View more" className={s.btn}  />
+        </NavLink>
       </div>
     </div>
   )
