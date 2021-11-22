@@ -3,6 +3,8 @@ import y from '../components/Select/Select.module.css'
 import Button from '../../../../../common/button'
 import { useParams } from 'react-router'
 
+import { NavLink } from 'react-router-dom'
+
 const ItemPage = ({ artState }) => {
   const { link } = useParams()
   console.log(link)
@@ -11,6 +13,7 @@ const ItemPage = ({ artState }) => {
   if (!cake) {
     return <h2>Not Found!</h2>
   }
+
   return (
     <div id={s.itemPageWrapper}>
       <div id={s.contentItems}>
@@ -19,8 +22,8 @@ const ItemPage = ({ artState }) => {
         {/* </div> */}
         <div id={s.content}>
           <div className={s.characteristic}>
-            <div id={s.char1}>1 characteristic</div>
-            <div id={s.char2}>2 characteristic</div>
+            <div id={s.char1}>Weight: {cake.weight} g</div>
+            <div id={s.char2}>Diabetic: {cake.diabetic}</div>
           </div>
           <h2>{cake.title}</h2>
           <div id={s.text}>{cake.text}</div>
@@ -48,7 +51,9 @@ const ItemPage = ({ artState }) => {
           <strong>Price: {cake.price}</strong>
         </div>
         <div id={s.btns}>
-          <Button text="Go back" />
+          <NavLink to="/catalog">
+            <Button text="Go back" />
+          </NavLink>
           <Button text="Add to cart" />
         </div>
       </div>

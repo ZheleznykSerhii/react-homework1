@@ -17,6 +17,7 @@ import cake10 from '../../img/sweet.PNG'
 import cake11 from '../../img/sweet2.PNG'
 import cake12 from '../../img/diabeticCake.PNG'
 import ItemPage from './content-pages/catalogpage/ItemPage/ItemPage'
+import Cart from './content-pages/catalogpage/components/CatalogMain/CartTest/cart'
 
 const Content = () => {
   const [artState] = useState([
@@ -28,6 +29,7 @@ const Content = () => {
       photo: './home/static/media/ar.ddb29e0e.jpg',
       price: 80,
       weight: 1200,
+      diabetic: 'no',
     },
     {
       id: 2,
@@ -37,6 +39,7 @@ const Content = () => {
       photo: './home/static/media/belgium.ef54fe10.jpg',
       price: 60,
       weight: 1000,
+      diabetic: 'no',
     },
     {
       id: 3,
@@ -46,6 +49,7 @@ const Content = () => {
       photo: './home/static/media/chok.708f850f.jpg',
       price: 70,
       weight: 1100,
+      diabetic: 'no',
     },
     {
       id: 4,
@@ -55,6 +59,7 @@ const Content = () => {
       photo: './home/static/media/carrot.e601e3c4.PNG',
       price: 30,
       weight: 700,
+      diabetic: 'yes',
     },
     {
       id: 5,
@@ -64,6 +69,7 @@ const Content = () => {
       photo: './home/static/media/confetti.23dc1dcf.PNG',
       price: 40,
       weight: 1000,
+      diabetic: 'no',
     },
     {
       id: 6,
@@ -73,6 +79,7 @@ const Content = () => {
       photo: './home/static/media/diabeticCake.9e73019b.PNG',
       price: 55,
       weight: 1100,
+      diabetic: 'yes',
     },
     {
       id: 7,
@@ -82,6 +89,7 @@ const Content = () => {
       photo: './home/static/media/cheesecake.6d17b02e.jpg',
       price: 50,
       weight: 1000,
+      diabetic: 'no',
     },
     {
       id: 8,
@@ -91,6 +99,7 @@ const Content = () => {
       photo: '/home/static/media/chz.4b51b74e.PNG',
       price: 45,
       weight: 1000,
+      diabetic: 'no',
     },
     {
       id: 9,
@@ -100,6 +109,7 @@ const Content = () => {
       photo: './home/static/media/grap.fe6b470e.PNG',
       price: 80,
       weight: 1200,
+      diabetic: 'no',
     },
     {
       id: 10,
@@ -109,6 +119,7 @@ const Content = () => {
       photo: './home/static/media/sweet.34cdd0d5.PNG',
       price: 60,
       weight: 1000,
+      diabetic: 'no',
     },
     {
       id: 11,
@@ -118,6 +129,7 @@ const Content = () => {
       photo: './home/static/media/sweet2.67cc3980.PNG',
       price: 75,
       weight: 1000,
+      diabetic: 'no',
     },
     {
       id: 12,
@@ -127,6 +139,7 @@ const Content = () => {
       photo: './home/static/media/strawb.a6beb204.PNG',
       price: 55,
       weight: 900,
+      diabetic: 'no',
     },
   ])
 
@@ -135,6 +148,7 @@ const Content = () => {
       <Route path="/home" element={<HomePageContent artState={artState} />} />
       <Route path="/catalog" element={<Catalog artState={artState} />} />
       <Route path="/catalog/:link" element={<ItemPage artState={artState} />} />
+      <Route path="/cart" element={<Cart artState={artState} />} />
     </Routes>
   )
 }
