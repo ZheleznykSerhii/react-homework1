@@ -18,6 +18,7 @@ import cake11 from '../../img/sweet2.PNG'
 import cake12 from '../../img/diabeticCake.PNG'
 import ItemPage from './content-pages/catalogpage/ItemPage/ItemPage'
 import Cart from './content-pages/catalogpage/components/CatalogMain/CartTest/cart'
+import CartContainer from './content-pages/catalogpage/components/CatalogMain/CartTest/CartContainer'
 
 const Content = () => {
   const [artState] = useState([
@@ -148,7 +149,7 @@ const Content = () => {
       <Route path="/home" element={<HomePageContent artState={artState} />} />
       <Route path="/catalog" element={<Catalog artState={artState} />} />
       <Route path="/catalog/:link" element={<ItemPage artState={artState} />} />
-      <Route path="/cart" element={<Cart artState={artState} />} />
+      <Route path="/cart" element={<CartContainer artState={artState} />} />
     </Routes>
   )
 }
